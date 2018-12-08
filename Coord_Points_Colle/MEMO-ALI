@@ -1,0 +1,25 @@
+﻿23/09/2018  MEMO-ALI :
+
+1. Enclencher le MULTIECRANS avec UBUNTU
+		TERMINAL
+		xrandr --output VGA-0 --pos 1440x0 --mode 1280x1024 --rate 60
+	Voir aussi 
+		xrandr
+			VGA-0 connected 1440x900+0+0 (normal left inverted right x axis y axis) 338mm x 270mm
+   1280x1024      60.0 +   75.0  
+   1024x768       75.1     60.0  
+   800x600        75.0     60.3  
+   640x480        75.0     60.0  
+   720x400        70.1  
+LVDS connected primary 1440x900+0+0 (normal left inverted right x axis y axis) 0mm x 0mm
+   1440x900       60.0*+
+   1280x854       59.9  
+   1280x800       59.8  
+   1280x720       59.9  
+   1152x768       59.8  
+   1024x768       59.9  
+   800x600        59.9  
+   848x480        59.7  
+   720x480        59.7  
+   640x480        59.4  
+

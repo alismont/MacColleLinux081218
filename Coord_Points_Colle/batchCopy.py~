@@ -1,0 +1,8 @@
+import shutil
+import os
+import glob
+fiche=[]
+fiche=glob.glob('/opt/Processing/3.3.7/*.JPG')
+print fiche[0]
+shutil.copy(fiche[0],'/home/lismont/Mac/Coord_Points_Colle/data/Lot_piece3.jpg')
+os.remove(fiche[0])
